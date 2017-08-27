@@ -1,0 +1,26 @@
+###############################################################
+##
+##		BRITTA
+##		Author: spaceshiptrooper
+##		Copyright: 2017 Britta
+##		Version: 0.0.0.1
+##		File Last Updated: 6/27/2017 at 3:54 A.M.
+##
+###############################################################
+
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
+
+RewriteEngine On
+
+# Uncomment RewriteBase only if you are uploading + installing to a root sub-domain
+# This means subdomain.domain.com
+# If it's inside a sub-folder within the sub-domain, it will not install if the RewriteBase has been uncommented.
+# RewriteBase /
+
+Options -Indexes
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]

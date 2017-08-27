@@ -1,0 +1,84 @@
+[
+    {
+        "name": "stil/gd-text",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/stil/gd-text.git",
+            "reference": "ae2bd5736dbd6d45a4af1e4b9c573dd4d8d06b11"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/stil/gd-text/zipball/ae2bd5736dbd6d45a4af1e4b9c573dd4d8d06b11",
+            "reference": "ae2bd5736dbd6d45a4af1e4b9c573dd4d8d06b11",
+            "shasum": ""
+        },
+        "require": {
+            "ext-gd": "*",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.4"
+        },
+        "time": "2016-07-22T22:31:04+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GDText\\": "src/",
+                "GDText\\Tests\\": "tests/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "A class drawing multiline and aligned text on pictures. Uses GD extension."
+    },
+    {
+        "name": "tequilarapido/letter-avatar",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tequilarapido/letter-avatar.git",
+            "reference": "88c81823876ffdc8aae6c3037a543ed593fea35a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tequilarapido/letter-avatar/zipball/88c81823876ffdc8aae6c3037a543ed593fea35a",
+            "reference": "88c81823876ffdc8aae6c3037a543ed593fea35a",
+            "shasum": ""
+        },
+        "require": {
+            "ext-gd": "*",
+            "php": ">=5.4.0",
+            "stil/gd-text": "~1.0"
+        },
+        "time": "2015-04-26T10:22:52+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "LetterAvatar\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "tequilarapido.",
+                "email": "dev@tequilarapido.com"
+            }
+        ],
+        "description": "Provide a simple way to create letter avatar images, like those in your Gmail inbox",
+        "keywords": [
+            "avatar",
+            "generator",
+            "letter"
+        ]
+    }
+]

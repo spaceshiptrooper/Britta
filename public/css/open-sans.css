@@ -1,0 +1,19 @@
+/*
+
+	BRITTA
+	Author: spaceshiptrooper
+	Copyright: 2017 Britta
+	Version: 0.0.0.1
+	File Last Updated: 6/27/2017 at 3:50 A.M.
+
+*/
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Open Sans Light';
+	src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+}

@@ -1,0 +1,66 @@
+/*
+
+	BRITTA
+	Author: spaceshiptrooper
+	Copyright: 2017 Britta
+	Version: 0.0.0.1
+	File Last Updated: 6/27/2017 at 3:50 A.M.
+
+*/
+
+@media only screen and (min-width: 1200px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 370px;
+		min-width: 370px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 700px;
+		min-width: 700px;
+		min-height: 500px;
+	}
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 420px;
+		min-width: 420px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 900px;
+		min-width: 900px;
+		min-height: 500px;
+	}
+
+}
+
+@media only screen and (min-width: 1580px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 420px;
+		min-width: 420px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 950px;
+		min-width: 950px;
+		min-height: 500px;
+	}
+
+}

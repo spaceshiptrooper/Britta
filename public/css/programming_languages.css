@@ -1,0 +1,895 @@
+/*
+
+	BRITTA
+	Author: spaceshiptrooper
+	Copyright: 2017 Britta
+	Version: 0.0.0.1
+	File Last Updated: 6/27/2017 at 3:50 A.M.
+
+*/
+
+.snippet-legend-container {
+	position: absolute;
+	margin-top: -7px;
+	margin-left: 10px;
+}
+
+.snippet-legend {
+	background-color: #888888;
+	color: #FFFFFF;
+	padding: 5px;
+	width: 50px;
+	border-radius: 3px;
+	text-align: center;
+	cursor: default;
+	/*
+	-webkit-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+	*/
+}
+
+pre {
+	word-wrap: break-word;
+}
+
+/*
+	Default
+*/
+.snippet-legend-default::-moz-selection {
+	text-shadow: none;
+	background: #CCCCCC;
+	color: #353535;
+}
+
+.snippet-legend-default::selection {
+	text-shadow: none;
+	background: #CCCCCC;
+	color: #353535;
+}
+
+pre.snippet-block-default::-moz-selection {
+	text-shadow: none;
+	background: #353535;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-default::selection {
+	text-shadow: none;
+	background: #353535;
+	color: #FFFFFF;
+}
+
+.snippet-legend-default {
+	background-color: #353535;
+}
+
+pre.snippet-block-default {
+	background: #CCCCCC;
+	color: #353535;
+}
+
+/*
+	PHP
+*/
+.snippet-legend-php::-moz-selection {
+	text-shadow: none;
+	background: #9494B8;
+	color: #FFFFFF;
+}
+
+.snippet-legend-php::selection {
+	text-shadow: none;
+	background: #9494B8;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-php::-moz-selection {
+	text-shadow: none;
+	background: #666699;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-php::selection {
+	text-shadow: none;
+	background: #666699;
+	color: #FFFFFF;
+}
+
+.snippet-legend-php {
+	background-color: #666699;
+}
+
+pre.snippet-block-php {
+	background: #9494B8;
+	color: #FFFFFF;
+}
+
+
+/*
+	Hack
+*/
+.snippet-legend-hack::-moz-selection {
+	text-shadow: none;
+	background: #878787;
+	color: #FFFFFF;
+}
+
+.snippet-legend-hack::selection {
+	text-shadow: none;
+	background: #878787;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-hack::-moz-selection {
+	text-shadow: none;
+	background: #E78601;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-hack::selection {
+	text-shadow: none;
+	background: #E78601;
+	color: #FFFFFF;
+}
+
+.snippet-legend-hack {
+	background-color: #E78601;
+	width: 70px;
+}
+
+pre.snippet-block-hack {
+	background: #878787;
+	color: #FFFFFF;
+}
+
+
+/*
+	HTML
+*/
+.snippet-legend-html::-moz-selection {
+	text-shadow: none;
+	background: #F16529;
+	color: #FFFFFF;
+}
+
+.snippet-legend-html::selection {
+	text-shadow: none;
+	background: #F16529;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-html::-moz-selection {
+	text-shadow: none;
+	background: #E44D26;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-html::selection {
+	text-shadow: none;
+	background: #E44D26;
+	color: #FFFFFF;
+}
+
+.snippet-legend-html {
+	background-color: #E44D26;
+}
+
+pre.snippet-block-html {
+	background: #F16529;
+	color: #FFFFFF;
+}
+
+
+/*
+	CSS
+*/
+.snippet-legend-css::-moz-selection {
+	text-shadow: none;
+	background: #28AAE1;
+	color: #FFFFFF;
+}
+
+.snippet-legend-css::selection {
+	text-shadow: none;
+	background: #28AAE1;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-css::-moz-selection {
+	text-shadow: none;
+	background: #0070BB;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-css::selection {
+	text-shadow: none;
+	background: #0070BB;
+	color: #FFFFFF;
+}
+
+.snippet-legend-css {
+	background-color: #0070BB;
+}
+
+pre.snippet-block-css {
+	background: #28AAE1;
+	color: #FFFFFF;
+}
+
+
+/*
+	Javascript/Jquery
+*/
+.snippet-legend-javascript::-moz-selection {
+	text-shadow: none;
+	background: #F1C027;
+	color: #FFFFFF;
+}
+
+.snippet-legend-javascript::selection {
+	text-shadow: none;
+	background: #F1C027;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-javascript::-moz-selection {
+	text-shadow: none;
+	background: #E4A228;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-javascript::selection {
+	text-shadow: none;
+	background: #E4A228;
+	color: #FFFFFF;
+}
+
+.snippet-legend-javascript {
+	background-color: #E4A228;
+	width: 160px;
+}
+
+pre.snippet-block-javascript {
+	background: #F1C027;
+	color: #FFFFFF;
+}
+
+
+/*
+	Python
+*/
+.snippet-legend-python::-moz-selection {
+	text-shadow: none;
+	background: #FFE56C;
+	color: #336896;
+}
+
+.snippet-legend-python::selection {
+	text-shadow: none;
+	background: #FFE56C;
+	color: #336896;
+}
+
+pre.snippet-block-python::-moz-selection {
+	text-shadow: none;
+	background: #407AAA;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-python::selection {
+	text-shadow: none;
+	background: #407AAA;
+	color: #FFFFFF;
+}
+
+.snippet-legend-python {
+	background-color: #407AAA;
+	width: 80px;
+}
+
+pre.snippet-block-python {
+	background: #FFE56C;
+	color: #336896;
+}
+
+
+/*
+	Ruby
+*/
+.snippet-legend-ruby::-moz-selection {
+	text-shadow: none;
+	background: #CE4037;
+	color: #FFFFFF;
+}
+
+.snippet-legend-ruby::selection {
+	text-shadow: none;
+	background: #CE4037;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-ruby::-moz-selection {
+	text-shadow: none;
+	background: #7C0400;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-ruby::selection {
+	text-shadow: none;
+	background: #7C0400;
+	color: #FFFFFF;
+}
+
+.snippet-legend-ruby {
+	background-color: #7C0400;
+}
+
+pre.snippet-block-ruby {
+	background: #CE4037;
+	color: #FFFFFF;
+}
+
+
+/*
+	C
+*/
+.snippet-legend-c::-moz-selection {
+	text-shadow: none;
+	background: #A8B9CC;
+	color: #FFFFFF;
+}
+
+.snippet-legend-c::selection {
+	text-shadow: none;
+	background: #A8B9CC;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-c::-moz-selection {
+	text-shadow: none;
+	background: #1B75B3;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-c::selection {
+	text-shadow: none;
+	background: #1B75B3;
+	color: #FFFFFF;
+}
+
+.snippet-legend-c {
+	background-color: #1B75B3;
+}
+
+pre.snippet-block-c {
+	background: #A8B9CC;
+	color: #FFFFFF;
+}
+
+
+/*
+	C#
+*/
+.snippet-legend-c-sharp::-moz-selection {
+	text-shadow: none;
+	background: #9B4F96;
+	color: #FFFFFF;
+}
+
+.snippet-legend-c-sharp::selection {
+	text-shadow: none;
+	background: #9B4F96;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-c-sharp::-moz-selection {
+	text-shadow: none;
+	background: #68217A;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-c-sharp::selection {
+	text-shadow: none;
+	background: #68217A;
+	color: #FFFFFF;
+}
+
+.snippet-legend-c-sharp {
+	background-color: #68217A;
+}
+
+pre.snippet-block-c-sharp {
+	background: #9B4F96;
+	color: #FFFFFF;
+}
+
+
+/*
+	C++
+*/
+.snippet-legend-c-plus-plus::-moz-selection {
+	text-shadow: none;
+	background: #649AD2;
+	color: #FFFFFF;
+}
+
+.snippet-legend-c-plus-plus::selection {
+	text-shadow: none;
+	background: #649AD2;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-c-plus-plus::-moz-selection {
+	text-shadow: none;
+	background: #004482;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-c-plus-plus::selection {
+	text-shadow: none;
+	background: #004482;
+	color: #FFFFFF;
+}
+
+.snippet-legend-c-plus-plus {
+	background-color: #004482;
+}
+
+pre.snippet-block-c-plus-plus {
+	background: #649AD2;
+	color: #FFFFFF;
+}
+
+
+/*
+	Visual Basic
+*/
+.snippet-legend-visual-basic::-moz-selection {
+	text-shadow: none;
+	background: #4EA2DE;
+	color: #FFFFFF;
+}
+
+.snippet-legend-visual-basic::selection {
+	text-shadow: none;
+	background: #4EA2DE;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-visual-basic::-moz-selection {
+	text-shadow: none;
+	background: #643098;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-visual-basic::selection {
+	text-shadow: none;
+	background: #643098;
+	color: #FFFFFF;
+}
+
+.snippet-legend-visual-basic {
+	background-color: #643098;
+	width: 105px;
+}
+
+pre.snippet-block-visual-basic {
+	background: #4EA2DE;
+	color: #FFFFFF;
+}
+
+
+/*
+	Erlang
+*/
+.snippet-legend-erlang::-moz-selection {
+	text-shadow: none;
+	background: #FFFFFF;
+	color: #000000;
+}
+
+.snippet-legend-erlang::selection {
+	text-shadow: none;
+	background: #FFFFFF;
+	color: #000000;
+}
+
+pre.snippet-block-erlang::-moz-selection {
+	text-shadow: none;
+	background: #8A0032;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-erlang::selection {
+	text-shadow: none;
+	background: #8A0032;
+	color: #FFFFFF;
+}
+
+.snippet-legend-erlang {
+	background-color: #8A0032;
+	width: 70px;
+}
+
+pre.snippet-block-erlang {
+	background: #FFFFFF;
+	color: #000000;
+}
+
+
+/*
+	Scala
+*/
+.snippet-legend-scala::-moz-selection {
+	text-shadow: none;
+	background: #DE322F;
+	color: #FFFFFF;
+}
+
+.snippet-legend-scala::selection {
+	text-shadow: none;
+	background: #DE322F;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-scala::-moz-selection {
+	text-shadow: none;
+	background: #A6221E;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-scala::selection {
+	text-shadow: none;
+	background: #A6221E;
+	color: #FFFFFF;
+}
+
+.snippet-legend-scala {
+	background-color: #A6221E;
+}
+
+pre.snippet-block-scala {
+	background: #DE322F;
+	color: #FFFFFF;
+}
+
+
+/*
+	Swift
+*/
+.snippet-legend-swift::-moz-selection {
+	text-shadow: none;
+	background: #FA6A2F;
+	color: #FFFFFF;
+}
+
+.snippet-legend-swift::selection {
+	text-shadow: none;
+	background: #FA6A2F;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-swift::-moz-selection {
+	text-shadow: none;
+	background: #FD2321;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-swift::selection {
+	text-shadow: none;
+	background: #FD2321;
+	color: #FFFFFF;
+}
+
+.snippet-legend-swift {
+	background-color: #FD2321;
+}
+
+pre.snippet-block-swift {
+	background: #FA6A2F;
+	color: #FFFFFF;
+}
+
+
+/*
+	Java
+*/
+.snippet-legend-java::-moz-selection {
+	text-shadow: none;
+	background: #4D7796;
+	color: #FFFFFF;
+}
+
+.snippet-legend-java::selection {
+	text-shadow: none;
+	background: #4D7796;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-java::-moz-selection {
+	text-shadow: none;
+	background: #F58119;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-java::selection {
+	text-shadow: none;
+	background: #F58119;
+	color: #FFFFFF;
+}
+
+.snippet-legend-java {
+	background-color: #F58119;
+}
+
+pre.snippet-block-java {
+	background: #4D7796;
+	color: #FFFFFF;
+}
+
+
+/*
+	Go
+*/
+.snippet-legend-go::-moz-selection {
+	text-shadow: none;
+	background: #8BC5E6;
+	color: #FFFFFF;
+}
+
+.snippet-legend-go::selection {
+	text-shadow: none;
+	background: #8BC5E6;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-go::-moz-selection {
+	text-shadow: none;
+	background: #3B89BE;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-go::selection {
+	text-shadow: none;
+	background: #3B89BE;
+	color: #FFFFFF;
+}
+
+.snippet-legend-go {
+	background-color: #3B89BE;
+}
+
+pre.snippet-block-go {
+	background: #8BC5E6;
+	color: #FFFFFF;
+}
+
+
+/*
+	Lua
+*/
+.snippet-legend-lua::-moz-selection {
+	text-shadow: none;
+	background: #757575;
+	color: #FFFFFF;
+}
+
+.snippet-legend-lua::selection {
+	text-shadow: none;
+	background: #757575;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-lua::-moz-selection {
+	text-shadow: none;
+	background: #00007E;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-lua::selection {
+	text-shadow: none;
+	background: #00007E;
+	color: #FFFFFF;
+}
+
+.snippet-legend-lua {
+	background-color: #00007E;
+	width: 70px;
+}
+
+pre.snippet-block-lua {
+	background: #757575;
+	color: #FFFFFF;
+}
+
+
+/*
+	Prolog
+*/
+.snippet-legend-prolog::-moz-selection {
+	text-shadow: none;
+	background: #EB2323;
+	color: #FFFFFF;
+}
+
+.snippet-legend-prolog::selection {
+	text-shadow: none;
+	background: #EB2323;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-prolog::-moz-selection {
+	text-shadow: none;
+	background: #0C2B48;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-prolog::selection {
+	text-shadow: none;
+	background: #0C2B48;
+	color: #FFFFFF;
+}
+
+.snippet-legend-prolog {
+	background-color: #7594CB;
+	width: 70px;
+}
+
+pre.snippet-block-prolog {
+	background: #F46A22;
+	color: #FFFFFF;
+}
+
+
+/*
+	Perl
+*/
+.snippet-legend-perl::-moz-selection {
+	text-shadow: none;
+	background: #3F416D;
+	color: #FFFFFF;
+}
+
+.snippet-legend-perl::selection {
+	text-shadow: none;
+	background: #3F416D;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-perl::-moz-selection {
+	text-shadow: none;
+	background: #303066;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-perl::selection {
+	text-shadow: none;
+	background: #303066;
+	color: #FFFFFF;
+}
+
+.snippet-legend-perl {
+	background-color: #303066;
+	width: 70px;
+}
+
+pre.snippet-block-perl {
+	background: #3F416D;
+	color: #FFFFFF;
+}
+
+
+/*
+	ColdFusion
+*/
+.snippet-legend-cold-fusion::-moz-selection {
+	text-shadow: none;
+	background: #274550;
+	color: #FFFFFF;
+}
+
+.snippet-legend-cold-fusion::selection {
+	text-shadow: none;
+	background: #274550;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-cold-fusion::-moz-selection {
+	text-shadow: none;
+	background: #DAEDFC;
+	color: #274550;
+}
+
+pre.snippet-block-cold-fusion::selection {
+	text-shadow: none;
+	background: #DAEDFC;
+	color: #274550;
+}
+
+.snippet-legend-cold-fusion {
+	background-color: #DAEDFC;
+	color: #274550;
+	width: 100px;
+}
+
+pre.snippet-block-cold-fusion {
+	background: #274550;
+	color: #FFFFFF;
+}
+
+
+/*
+	Apache
+*/
+.snippet-legend-apache::-moz-selection {
+	text-shadow: none;
+	background: #F1D158;
+	color: #FFFFFF;
+}
+
+.snippet-legend-apache::selection {
+	text-shadow: none;
+	background: #F1D158;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-apache::-moz-selection {
+	text-shadow: none;
+	background: #F46844;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-apache::selection {
+	text-shadow: none;
+	background: #F46844;
+	color: #FFFFFF;
+}
+
+.snippet-legend-apache {
+	background-color: #F46844;
+	width: 70px;
+}
+
+pre.snippet-block-apache {
+	background: #F1D158;
+	color: #FFFFFF;
+}
+
+
+/*
+	MySQL
+*/
+.snippet-legend-mysql::-moz-selection {
+	text-shadow: none;
+	background: #3E78A6;
+	color: #FFFFFF;
+}
+
+.snippet-legend-mysql::selection {
+	text-shadow: none;
+	background: #3E78A6;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-mysql::-moz-selection {
+	text-shadow: none;
+	background: #F59620;
+	color: #FFFFFF;
+}
+
+pre.snippet-block-mysql::selection {
+	text-shadow: none;
+	background: #F59620;
+	color: #FFFFFF;
+}
+
+.snippet-legend-mysql {
+	background-color: #F59620;
+	width: 70px;
+}
+
+pre.snippet-block-mysql {
+	background: #3E78A6;
+	color: #FFFFFF;
+}
