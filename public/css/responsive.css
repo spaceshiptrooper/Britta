@@ -4,11 +4,335 @@
 	Author: spaceshiptrooper
 	Copyright: 2017 Britta
 	Version: 0.0.0.1
-	File Last Updated: 6/27/2017 at 3:50 A.M.
+	File Last Updated: 6/28/2017 at 11:10 P.M.
 
 */
 
-@media only screen and (min-width: 1200px) {
+/*
+
+	There are still some dimensions missing. I cannot confirm the styles for the missing
+	dimensions since those dimensions did not change during testing.
+
+*/
+
+@media screen and (min-width: 400px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 840px;
+		min-width: 840px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 840px;
+		min-width: 840px;
+		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 840px;
+		min-width: 840px;
+	}
+
+	.register {
+		max-width: 850px;
+		min-width: 850px;
+	}
+
+	.login input {
+		width: 90%;
+	}
+
+	.settings input, .password input {
+		width: 96.4%;
+	}
+
+	textarea.preview {
+		width: 90%;
+	}
+
+	.main-break {
+		padding-top: 50px;
+		clear: both;
+	}
+
+}
+
+@media screen and (min-width: 425px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 840px;
+		min-width: 840px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 840px;
+		min-width: 840px;
+		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 840px;
+		min-width: 840px;
+	}
+
+	.register {
+		max-width: 850px;
+		min-width: 850px;
+	}
+
+	.login input {
+		width: 90%;
+	}
+
+	.settings input, .password input {
+		width: 96.4%;
+	}
+
+	textarea.preview {
+		width: 90%;
+	}
+
+	.main-break {
+		padding-top: 50px;
+		clear: both;
+	}
+
+}
+
+@media screen and (min-width: 640px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 290px;
+		min-width: 290px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 490px;
+		min-width: 490px;
+		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 850px;
+		min-width: 850px;
+	}
+
+	.register {
+		max-width: 850px;
+		min-width: 850px;
+	}
+
+	.login input {
+		width: 90%;
+	}
+
+	.settings input, .password input {
+		width: 96.4%;
+	}
+
+	textarea.preview {
+		width: 90%;
+	}
+
+	.main-break {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 290px;
+		min-width: 290px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 490px;
+		min-width: 490px;
+		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 850px;
+		min-width: 850px;
+	}
+
+	.register {
+		max-width: 850px;
+		min-width: 850px;
+	}
+
+	.login input {
+		width: 90%;
+	}
+
+	.settings input, .password input {
+		width: 96.4%;
+	}
+
+	textarea.preview {
+		width: 90%;
+	}
+
+	.main-break {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 800px), (min-width: 854px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 290px;
+		min-width: 290px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 490px;
+		min-width: 490px;
+		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 850px;
+		min-width: 850px;
+	}
+
+	.register {
+		max-width: 860px;
+		min-width: 860px;
+	}
+
+	.login input {
+		width: 91%;
+	}
+
+	.settings input, .password input {
+		width: 96.6%;
+	}
+
+	textarea.preview {
+		width: 89.5%;
+	}
+
+	.main-break {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 310px;
+		min-width: 310px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 500px;
+		min-width: 500px;
+		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 890px;
+		min-width: 890px;
+	}
+
+	.register {
+		max-width: 900px;
+		min-width: 900px;
+	}
+
+	.login input {
+		width: 92%;
+	}
+
+	.settings input, .password input {
+		width: 96.6%;
+	}
+
+	textarea.preview {
+		width: 90%;
+	}
+
+	.main-break {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 1152px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 310px;
+		min-width: 310px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 630px;
+		min-width: 630px;
+		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 1020px;
+		min-width: 1020px;
+	}
+
+	.register {
+		max-width: 1030px;
+		min-width: 1030px;
+	}
+
+	.login input {
+		width: 91%;
+	}
+
+	.settings input, .password input {
+		width: 96.6%;
+	}
+
+	textarea.preview {
+		width: 90%;
+	}
+
+	.main-break {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 1280px) {
 
 	.login, .welcome {
 		background-color: #F5F5F5;
@@ -25,9 +349,125 @@
 		min-height: 500px;
 	}
 
+	.settings, .password {
+		max-width: 1140px;
+		min-width: 1140px;
+	}
+
+	.register {
+		max-width: 1150px;
+		min-width: 1150px;
+	}
+
+	.login input {
+		width: 93%;
+	}
+
+	.settings input, .password input {
+		width: 97.1%;
+	}
+
+	textarea.preview {
+		width: 92%;
+	}
+
+	.main-break {
+		display: none;
+	}
+
 }
 
-@media only screen and (min-width: 1500px) {
+@media screen and (min-width: 1366px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 390px;
+		min-width: 390px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 760px;
+		min-width: 760px;
+		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 1230px;
+		min-width: 1230px;
+	}
+
+	.register {
+		max-width: 1240px;
+		min-width: 1240px;
+	}
+
+	.login input {
+		width: 93%;
+	}
+
+	.settings input, .password input {
+		width: 97.5%;
+	}
+
+	textarea.preview {
+		width: 92%;
+	}
+
+	.main-break {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 1400px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 400px;
+		min-width: 400px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 790px;
+		min-width: 790px;
+		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 1270px;
+		min-width: 1270px;
+	}
+
+	.register {
+		max-width: 1280px;
+		min-width: 1280px;
+	}
+
+	.login input {
+		width: 93%;
+	}
+
+	.settings input, .password input {
+		width: 97.5%;
+	}
+
+	textarea.preview {
+		width: 92.5%;
+	}
+
+	.main-break {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 1440px) {
 
 	.login, .welcome {
 		background-color: #F5F5F5;
@@ -39,20 +479,46 @@
 	.news {
 		background-color: #F5F5F5;
 		padding: 20px;
-		max-width: 900px;
-		min-width: 900px;
+		max-width: 810px;
+		min-width: 810px;
 		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 1310px;
+		min-width: 1310px;
+	}
+
+	.register {
+		max-width: 1320px;
+		min-width: 1320px;
+	}
+
+	.login input {
+		width: 93.5%;
+	}
+
+	.settings input, .password input {
+		width: 97.7%;
+	}
+
+	textarea.preview {
+		width: 93%;
+	}
+
+	.main-break {
+		display: none;
 	}
 
 }
 
-@media only screen and (min-width: 1580px) {
+@media screen and (min-width: 1600px) {
 
 	.login, .welcome {
 		background-color: #F5F5F5;
 		padding: 20px;
-		max-width: 420px;
-		min-width: 420px;
+		max-width: 450px;
+		min-width: 450px;
 	}
 
 	.news {
@@ -61,6 +527,212 @@
 		max-width: 950px;
 		min-width: 950px;
 		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 1470px;
+		min-width: 1470px;
+	}
+
+	.register {
+		max-width: 1480px;
+		min-width: 1480px;
+	}
+
+	.login input {
+		width: 94%;
+	}
+
+	.settings input, .password input {
+		width: 98%;
+	}
+
+	textarea.preview {
+		width: 93%;
+	}
+
+	.main-break {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 1680px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 470px;
+		min-width: 470px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 990px;
+		min-width: 990px;
+		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 1550px;
+		min-width: 1550px;
+	}
+
+	.register {
+		max-width: 1560px;
+		min-width: 1560px;
+	}
+
+	.login input {
+		width: 94%;
+	}
+
+	.settings input, .password input {
+		width: 98%;
+	}
+
+	textarea.preview {
+		width: 93%;
+	}
+
+	.main-break {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 1920px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 490px;
+		min-width: 490px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 1210px;
+		min-width: 1210px;
+		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 1785px;
+		min-width: 1785px;
+	}
+
+	.register {
+		max-width: 1800px;
+		min-width: 1800px;
+	}
+
+	.login input {
+		width: 94%;
+	}
+
+	.settings input, .password input {
+		width: 98.5%;
+	}
+
+	textarea.preview {
+		width: 94%;
+	}
+
+	.main-break {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 2048px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 510px;
+		min-width: 510px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 1330px;
+		min-width: 1330px;
+		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 1910px;
+		min-width: 1910px;
+	}
+
+	.register {
+		max-width: 2430px;
+		min-width: 2430px;
+	}
+
+	.login input {
+		width: 95%;
+	}
+
+	.settings input, .password input {
+		width: 98.5%;
+	}
+
+	textarea.preview {
+		width: 94%;
+	}
+
+	.main-break {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 2560px) {
+
+	.login, .welcome {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 580px;
+		min-width: 580px;
+	}
+
+	.news {
+		background-color: #F5F5F5;
+		padding: 20px;
+		max-width: 1770px;
+		min-width: 1770px;
+		min-height: 500px;
+	}
+
+	.settings, .password {
+		max-width: 2420px;
+		min-width: 2420px;
+	}
+
+	.register {
+		max-width: 2430px;
+		min-width: 2430px;
+	}
+
+	.login input {
+		width: 95%;
+	}
+
+	.settings input, .password input {
+		width: 98.5%;
+	}
+
+	textarea.preview {
+		width: 94%;
+	}
+
+	.main-break {
+		display: none;
 	}
 
 }
