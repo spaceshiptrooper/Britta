@@ -5,7 +5,7 @@
 //		Author: spaceshiptrooper
 //		Copyright: 2017 Britta
 //		Version: 0.0.0.1
-//		File Last Updated: 8/27/2017 at 3:48 A.M.
+//		File Last Updated: 6/28/2017 at 11:11 P.M.
 //
 ///////////////////////////////////////////////////////////////
 ?>
@@ -23,7 +23,7 @@
 <?php require(ROOT . 'template' . DS . 'header.php'); ?>
 
 	<main class="container">
-		<div class="settings">
+		<div class="password">
 			<h1>Change your password</h1>
 			<hr>
 			<div class="p-t-15"></div>

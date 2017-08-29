@@ -5,7 +5,7 @@
 //		Author: spaceshiptrooper
 //		Copyright: 2017 Britta
 //		Version: 0.0.0.1
-//		File Last Updated: 8/27/2017 at 3:48 A.M.
+//		File Last Updated: 6/28/2017 at 11:11 P.M.
 //
 ///////////////////////////////////////////////////////////////
 ?>
@@ -126,7 +126,7 @@ if(isset($_SESSION['first_name_error'])) {
 <?php
 }
 ?>
-		<form action="<?php print($required->functions->html_escape($config['URL'] . 'register.php')); ?>" method="POST">
+		<form action="<?php print($required->functions->html_escape($config['URL'] . 'register.php')); ?>" method="POST" class="register">
 			<input type="text" name="first_name" placeholder="First Name" autocomplete="off" value="<?php if(isset($_SESSION['r_first'])) { print($required->functions->html_escape($_SESSION['r_first'])); } ?>">
 			<div class="p-t-5"></div>
 			<input type="text" name="last_name" placeholder="Last Name" autocomplete="off" value="<?php if(isset($_SESSION['r_last'])) { print($required->functions->html_escape($_SESSION['r_last'])); } ?>">

@@ -5,7 +5,7 @@
 //		Author: spaceshiptrooper
 //		Copyright: 2017 Britta
 //		Version: 0.0.0.1
-//		File Last Updated: 8/27/2017 at 3:48 A.M.
+//		File Last Updated: 6/28/2017 at 11:11 P.M.
 //
 ///////////////////////////////////////////////////////////////
 ?>
@@ -72,6 +72,8 @@ if(file_exists($file)) {
 
 			</div>
 		</div>
+
+		<div class="main-break"></div>
 
 		<div class="welcome pull-right">
 			<h1><?php print($required->functions->html_escape($user->first_name . ' ' . $user->last_name)); ?></h1>

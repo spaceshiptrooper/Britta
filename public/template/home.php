@@ -5,7 +5,7 @@
 //		Author: spaceshiptrooper
 //		Copyright: 2017 Britta
 //		Version: 0.0.0.1
-//		File Last Updated: 8/27/2017 at 3:48 A.M.
+//		File Last Updated: 6/28/2017 at 11:11 P.M.
 //
 ///////////////////////////////////////////////////////////////
 ?>
@@ -26,6 +26,8 @@
 		<div class="welcome pull-left">
 			<p class="time"></p>
 		</div>
+
+		<div class="main-break"></div>
 
 		<div class="news pull-right">
 <?php

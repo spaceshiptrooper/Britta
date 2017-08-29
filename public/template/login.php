@@ -5,7 +5,7 @@
 //		Author: spaceshiptrooper
 //		Copyright: 2017 Britta
 //		Version: 0.0.0.1
-//		File Last Updated: 8/27/2017 at 3:48 A.M.
+//		File Last Updated: 6/28/2017 at 11:11 P.M.
 //
 ///////////////////////////////////////////////////////////////
 ?>
@@ -75,6 +75,8 @@ if(isset($_SESSION['email_error'])) {
 				<button type="submit" class="button">Login</button>
 			</form>
 		</div>
+
+		<div class="main-break"></div>
 
 		<div class="news pull-right">
 <?php
