@@ -4,7 +4,7 @@
 	Author: spaceshiptrooper
 	Copyright: 2017 Britta
 	Version: 0.0.0.1
-	File Last Updated: 6/27/2017 at 3:50 A.M.
+	File Last Updated: 6/28/2017 at 11:23 P.M.
 
 */
 
@@ -394,6 +394,10 @@ input[type="checkbox"]:checked[disabled] + label:before {
 	width: 500px;
 	height: 500px;
 	display: block;
+}
+
+.setup input {
+	width: 99%;
 }
 
 .file-input {
