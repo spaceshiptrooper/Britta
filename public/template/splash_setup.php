@@ -5,7 +5,7 @@
 //		Author: spaceshiptrooper
 //		Copyright: 2017 Britta
 //		Version: 0.0.0.1
-//		File Last Updated: 8/27/2017 at 3:48 A.M.
+//		File Last Updated: 6/28/2017 at 11:23 P.M.
 //
 ///////////////////////////////////////////////////////////////
 ?>
@@ -70,7 +70,7 @@ if(isset($_SESSION['users_directory_error'])) {
 <?php
 }
 ?>
-		<form action="" method="POST">
+		<form action="" class="setup" method="POST">
 			<input type="text" name="USERS_DIRECTORY" placeholder="The user's directory location for instance /var/www/britta/users/" value="<?php if(isset($_SESSION['users_directory'])) { print($_SESSION['users_directory']); } ?>">
 			<div class="p-t-5"></div>
 			<input type="text" name="SESSION_COOKIE" placeholder="A session cookie name. It can be anything." value="<?php if(isset($_SESSION['session_cookie'])) { print($_SESSION['session_cookie']); } ?>">
