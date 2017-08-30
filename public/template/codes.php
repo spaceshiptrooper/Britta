@@ -5,7 +5,7 @@
 //		Author: spaceshiptrooper
 //		Copyright: 2017 Britta
 //		Version: 0.0.0.1
-//		File Last Updated: 6/28/2017 at 11:11 P.M.
+//		File Last Updated: 6/29/2017 at 10:04 P.M.
 //
 ///////////////////////////////////////////////////////////////
 ?>
@@ -592,6 +592,78 @@ print($required->functions->codes($code));
 ?></p>
 			<h4><strong>Result</strong></h4>
 			<p><?php print($required->functions->codes($required->functions->html_escape('[mysql]SELECT COUNT(colum_name) AS total FROM table_name[/mysql]'))); ?></p>
+			<hr>
+
+			<!-- PHP -->
+			<span class="top-hover top pull-right"></span>
+			<h4><a id="basic_php"></a><strong>Basic PHP Sample</strong></h4>
+			<hr>
+			<p><?php
+$code = '[code]&lsqb;php&rsqb;sample&lsqb;/php&rsqb;[/code]';
+print($required->functions->codes($code));
+?></p>
+			<h4><strong>Result</strong></h4>
+			<p><?php print($required->functions->codes('[php]sample[/php]')); ?></p>
+
+			<hr>
+			<span class="top-hover top pull-right"></span>
+			<h4><strong>Basic PHP</strong></h4>
+			<hr>
+			<p><?php
+$code = '[code]&lsqb;php&rsqb;CODE_HERE&lsqb;/php&rsqb;[/code]';
+print($required->functions->codes($code));
+?></p>
+			<h4><strong>Result</strong></h4>
+			<p><?php print($required->functions->codes($required->functions->html_escape('[php]<?php
+class HelloWorld {
+
+	public function hello_world() {
+
+		print(\'Hello World!\');
+
+	}
+
+}
+
+$hello = new HelloWorld;
+$hello->hello_world();
+[/php]'))); ?></p>
+			<hr>
+
+			<!-- Hack -->
+			<span class="top-hover top pull-right"></span>
+			<h4><a id="basic_hack"></a><strong>Basic Hack Sample</strong></h4>
+			<hr>
+			<p><?php
+$code = '[code]&lsqb;hack&rsqb;sample&lsqb;/hack&rsqb;[/code]';
+print($required->functions->codes($code));
+?></p>
+			<h4><strong>Result</strong></h4>
+			<p><?php print($required->functions->codes('[hack]sample[/hack]')); ?></p>
+
+			<hr>
+			<span class="top-hover top pull-right"></span>
+			<h4><strong>Basic Hack</strong></h4>
+			<hr>
+			<p><?php
+$code = '[code]&lsqb;hack&rsqb;CODE_HERE&lsqb;/hack&rsqb;[/code]';
+print($required->functions->codes($code));
+?></p>
+			<h4><strong>Result</strong></h4>
+			<p><?php print($required->functions->codes($required->functions->html_escape('[hack]<?hh
+class HelloWorld {
+
+	public function hello_world() {
+
+		print(\'Hello World!\');
+
+	}
+
+}
+
+$hello = new HelloWorld();
+$hello->hello_world();
+[/hack]'))); ?></p>
 			<hr>
 
 			<!-- Python -->
